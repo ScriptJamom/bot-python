@@ -36,7 +36,7 @@ table1 = [ ['''Цветы из пластиковых бутылок: Пошаг
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.send_message(message.chat.id, "Привет! Напиши /info, и я расскажу случайный факт о разложении предметов!")
+    bot.send_message(message.chat.id, "Привет! Напиши /info, и я расскажу случайный факт о разложении предметов! Или /podelki что сделать что-то с бытовыми отходами!")
 
 
 @bot.message_handler(commands=['info'])
